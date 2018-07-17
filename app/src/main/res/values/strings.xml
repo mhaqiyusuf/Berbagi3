@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Berbagi</string>
+    <string name="campaign">Campaign</string>
+    <string name="profile">Profile</string>
+    <string name="add_campaign">Add Campaign</string>
+    <string name="help">Help</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="manual">Manual : \n  1. Select a campaign \n  2. Press the donation button \n   3. Enter the name and amount of money \n  4. Press the confirmation button \n  5. Verify to WA number that listed in the campaign</string>
+    <string name="nohp">0857-6858-8196</string>
+    <string name="email">anonim@gmail.com</string>
+    <string name="gambar">gambar</string>
+    <string name="judul">Judul</string>
+    <string name="title_activity_tambah">TambahActivity</string>
+    <string name="title_activity_coba">CobaActivity</string>
+    <string name="title_activity_campaign">CampaignActivity</string>
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    >
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#5F9EA0"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="profile">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/profile"
+                android:src="@drawable/ic_account_circle_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile"
+                android:layout_centerHorizontal="true"
+                android:text="@string/profile"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#D2691E">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="kampanye">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/job"
+                android:src="@drawable/ic_format_list_bulleted_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/job"
+                android:layout_centerHorizontal="true"
+                android:text="@string/campaign"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#CD5C5C">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="add">>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/notif"
+                android:src="@drawable/ic_add_circle_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notif"
+                android:layout_centerHorizontal="true"
+                android:text="@string/add_campaign"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#B8860B"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="help">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/mail"
+                android:src="@drawable/ic_help_outline_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mail"
+                android:layout_centerHorizontal="true"
+                android:text="@string/help"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#2E8B57"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/rate"
+                android:src="@drawable/ic_settings_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:layout_centerHorizontal="true"
+                android:text="@string/setting"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="#BC8F8F">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="about">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/rev"
+                android:src="@drawable/ic_info_outline_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rev"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:text="@string/about"/>
+        </RelativeLayout>
+    </FrameLayout>
+</android.support.v7.widget.GridLayout>
